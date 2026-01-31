@@ -2,6 +2,7 @@
 
 이 프로젝트는 FastAPI 백엔드와 Streamlit 프론트엔드로 구성되어 있습니다.
 아래 단계에 따라 로컬 환경에서 바로 실행할 수 있습니다.
+
 ---
 1️⃣ Install dependencies
 
@@ -11,6 +12,7 @@ pip install -r requirements.txt
 
 
 Python 3.10 이상을 권장합니다.
+
 ---
 
 2️⃣ Set environment variables
@@ -27,6 +29,7 @@ TIMEZONE=Asia/Seoul
 
 
 ⚠️ .env 파일은 Git에 포함되지 않으며, 개인 API 키는 절대 공유하지 마세요.
+
 ---
 
 3️⃣ Run backend (FastAPI)
@@ -34,6 +37,7 @@ TIMEZONE=Asia/Seoul
 처방전 처리 및 AI 파이프라인을 담당하는 백엔드를 실행합니다.
 
 uvicorn app.main:app --reload
+
 ---
 
 
@@ -50,6 +54,7 @@ streamlit run ui_app.py
 
 브라우저가 자동으로 열리며,
 처방전 업로드 → 결과 확인까지 바로 테스트할 수 있습니다.
+
 ---
 
 ✅ What happens next?
